@@ -1,0 +1,66 @@
+.container{
+    height: 85%;
+    width: 90%;
+    overflow: auto;
+    position: absolute;
+    top: 7%;
+    left: 5.5%;
+    border: 1px solid white;
+    padding: 0;
+    background-color: #000000;
+}
+
+table {
+    width: 100%;
+    background-color: #000000;
+}
+
+/.poster img {
+    display: inline-block;
+    vertical-align: middle;
+    width:210px;
+    height:180px;
+}
+
+.Id, .MainCharacter, .AnimeName, .AnimeSeason, .AnimeEpisodes {
+    text-align:justify;
+    font-size: medium;
+    color: white;
+    background-color: #000000;
+
+}
+
+.Title {
+    font-size: large;
+    color: white;
+}
+
+.Id{
+    border-right: 1px solid currentColor;
+    padding-right: 24px;
+}
+
+.AnimeSeason, .AnimeEpisodes {
+    font-style: italic;
+
+}
+
+.MainCharacter, .AnimeName {
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+.Filter {
+    font-size: 14px;
+    width: 100%;
+    color: white;
+    background-color: #000000;
+
+}
+
+.pagine {
+    border-top: 1px solid white;
+    font-size: 15px;
+    color: white;
+    background-color: #000000;
+}
